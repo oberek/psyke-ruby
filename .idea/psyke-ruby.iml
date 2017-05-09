@@ -92,21 +92,6 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="application_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="psyke-ruby" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/application_controller.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
@@ -156,6 +141,7 @@
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.1, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.0.0, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.7.1, ruby-2.3.3-p222 (1)) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v0.20.0, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v2.0.5, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.8.2, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.0.2, ruby-2.3.3-p222 (1)) [gem]" level="application" />
@@ -171,7 +157,6 @@
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.4.0, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.1, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.0, ruby-2.3.3-p222 (1)) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.13, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.4, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, ruby-2.3.3-p222 (1)) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.7, ruby-2.3.3-p222 (1)) [gem]" level="application" />
